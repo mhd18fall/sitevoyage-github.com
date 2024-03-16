@@ -1,0 +1,54 @@
+body {
+    background-size: cover;
+    background-color: beige;
+}
+.background {
+    background-image: url(https://i.pinimg.com/564x/f5/3d/ef/f53def10d9d48ef6e77dd25974618ab7.jpg); /* Remplacez 'chemin_de_votre_image.jpg' par le chemin de votre image d'arrière-plan */
+    background-size: cover; /* Assurez-vous que l'image d'arrière-plan couvre toute la zone */
+    background-position: center; /* Centrez l'image d'arrière-plan horizontalement et verticalement */
+    height: 100vh; /* Réglez la hauteur de l'arrière-plan à 100% de la hauteur de la fenêtre */
+    display: flex; /* Utilisez Flexbox pour centrer le contenu verticalement */
+    justify-content: center; /* Centrez le contenu horizontalement */
+    align-items: center; /* Centrez le contenu verticalement */
+}
+
+.content {
+    text-align: center; /* Centre le texte horizontalement */
+    color: white; /* Couleur du texte */
+}
+h1 {
+    font-size: 75px;
+}
+
+main {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+section {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+h2{
+    text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center; /* Aligner verticalement les éléments */
+  }
+  
+  .video {
+    flex: 1; /* La vidéo occupera 50% de l'espace */
+    margin-right: 20px; /* Espace entre la vidéo et le texte */
+    position: relative;
+    top: -20px;
+  }
+  
+  .text {
+    flex: 1; /* Le texte occupera 50% de l'espace */
+  }
+  

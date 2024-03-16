@@ -1,0 +1,52 @@
+body {
+    background-size: cover;
+    background-color: skyblue;
+}
+h1 {
+    font-size: 75px;
+    height: 150px; 
+    line-height: 100px; 
+    text-align: center;
+}
+header {
+   
+    background-image: url(https://th.bing.com/th/id/R.58c7cd07743a65337c18c919bcaa1fc5?rik=TJqBfegI01c7Gw&riu=http%3a%2f%2fwww.getsready.com%2fwp-content%2fuploads%2f2016%2f08%2fRio-de-Janeiro-an-amazing-part-in-brazil.jpg&ehk=Dx7YdRlKPvbF%2fRsGg%2fGXOhSNQyYcyiqFKpqr7IoS3s8%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    width: 1250px;
+    height: 600px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+section {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}  
+h2{
+    text-align: center;
+    height: 150px;
+}
+.container {
+    display: flex;
+    align-items: center; /* Aligner verticalement les éléments */
+}
+  
+.video {
+    flex: 1; /* La vidéo occupera 50% de l'espace */
+    margin-right: 20px; /* Espace entre la vidéo et le texte */
+    width: 450px;
+    height: 450px;
+}
+  
+.text {
+    flex: 1; /* Le texte occupera 50% de l'espace */
+}
+
+  
